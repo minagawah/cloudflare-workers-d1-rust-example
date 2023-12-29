@@ -1,0 +1,29 @@
+{
+  "name": "cloudflare-workers-d1-rust-example",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A sample code for Cloudflare Workers using D1 database (and is written in Rust for WASM)",
+  "scripts": {
+    "fmt": "cd src && cargo +nightly fmt",
+    "clippy": "cd src && cargo clippy",
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev --local"
+  },
+  "repository": "https://github.com/minagawah/cloudflare-workers-d1-rust-example.git",
+  "keywords": [
+    "Cloudflare",
+    "Worker",
+    "WASM",
+    "Rust",
+    "D1"
+  ],
+  "license": "(Unlicense OR MIT)",
+  "author": "minagawah <minag@tokyo800.jp>",
+  "bugs": {
+    "url": "https://github.com/minagawah/cloudflare-workers-d1-rust-example/issues"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.1",
+    "wrangler": "^3.22.1"
+  }
+}
